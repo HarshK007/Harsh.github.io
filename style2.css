@@ -1,0 +1,184 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Kaushan Script;
+}
+ul{
+    padding: 0%;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0%;
+}
+.site-wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-left ul{
+    display: flex;
+    list-style: none;
+}
+.header-right ul{
+    display: flex;
+    list-style: none;
+}
+.header-item{
+    display: inline-block;
+    padding-left: 3rem;
+    padding-right:3em;
+}
+.header-item a{
+    text-decoration: none;
+    color: white;
+}
+.header-center .logo{
+    line-height: 1;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.header-center a{
+    text-decoration: none;
+    color: black;
+}
+.main-wrapper{
+    flex:1;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.fnamef{
+    letter-spacing: 4rem;
+    font-size: 3rem;
+}
+.lnamef{
+    letter-spacing: 4rem;
+    font-size: 3rem;
+}
+.fnamel{
+    letter-spacing: 4rem;
+    font-size: 2rem;
+}
+.lnamel{
+    letter-spacing: 4rem;
+    font-size: 2rem;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.insta-link .insta-dark {
+    display: inline-block;
+    
+}
+.insta-link .insta-color {
+    display: none;
+}
+.insta-link:hover .insta-dark {
+    display: none;
+}
+.insta-link:hover .insta-color {
+    display: inline-block;
+}
+.fb-link .fb-dark {
+    display: inline-block;
+}
+.fb-link .fb-color {
+    display: none;
+}
+.fb-link:hover .fb-dark {
+    display: none;
+}
+.fb-link:hover .fb-color {
+    display: inline-block;
+}
+.twit-link .twit-dark {
+    display: inline-block;
+}
+.twit-link .twit-color {
+    display: none;
+}
+.twit-link:hover .twit-dark {
+    display: none;
+}
+.twit-link:hover .twit-color {
+    display: inline-block;
+}
+.github-link .github-dark {
+    display: inline-block;
+}
+.github-link .github-color {
+    display: none;
+}
+.github-link:hover .github-dark {
+    display: none;
+}
+.github-link:hover .github-color {
+    display: inline-block;
+}
+.quora-link .quora-dark {
+    display: inline-block;
+}
+.quora-link .quora-color {
+    display: none;
+}
+.quora-link:hover .quora-dark {
+    display: none;
+}
+.quora-link:hover .quora-color {
+    display: inline-block;
+}
+.tinder-link .tinder-dark {
+    display: inline-block;
+}
+.tinder-link .tinder-color {
+    display: none;
+}
+.tinder-link:hover .tinder-dark {
+    display: none;
+}
+.tinder-link:hover .tinder-color {
+    display: inline-block;
+}
+.youtube-link .youtube-dark {
+    display: inline-block;
+}
+.youtube-link .youtube-color {
+    display: none;
+}
+.youtube-link:hover .youtube-dark {
+    display: none;
+}
+.youtube-link:hover .youtube-color {
+    display: inline-block;
+}
+.linkedin-link .linkedin-dark {
+    display: inline-block;
+}
+.linkedin-link .linkedin-color {
+    display: none;
+}
+.linkedin-link:hover .linkedin-dark {
+    display: none;
+}
+.linkedin-link:hover .linkedin-color {
+    display: inline-block;
+}
+.connect{
+    height: 40px;
+    width: 40px;   
+}
+.footer-left{
+    display: flex;
+}
